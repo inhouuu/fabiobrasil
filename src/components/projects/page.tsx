@@ -28,21 +28,32 @@ export default function Projects() {
                             </div>
                         </Link>
 
-                        <div className='cursor-pointer w-full md:max-w-[220px] bg-black/[0.2] border-t-8 mb-3 md:mb-0 border-black/30 rounded-lg p-4 transform transition-all duration-150 hover:-translate-y-2 hover:shadow-lg hover:bg-black/[0.1]'>
-                            <h2 className='mb-3 text-lg font-bold'>Telemetria EA F1 🏎️</h2>
-                            <p>Módulo capaz de converter os bites recebidos por um servidor UDP e apresentá-los por meio de uma interface. </p>
-                            {/* <p>description...</p> */}
-                            {/* <p>description...</p> */}
-                            {/* <p>description...</p> */}
-                            {/* <p>description...</p> */}
-                        </div>
+                        <Link href="https://www.xgrupo.com/" target='_blank'>
+                            <div className='cursor-pointer w-full md:max-w-[220px] bg-black/[0.2] border-t-8 mb-3 md:mb-0 border-black/30 rounded-lg p-4 transform transition-all duration-150 hover:-translate-y-2 hover:shadow-lg hover:bg-black/[0.1]'>
+                                <h2 className='mb-3 text-lg font-bold'>Website Xsupermercados 🔵🟡</h2>
+                                <p>Site desenvolvido para o Xsupermercados</p>
+                                {/* <p>description...</p> */}
+                                {/* <p>description...</p> */}
+                            </div>
+                        </Link>
 
-                        <div className='cursor-pointer w-full md:max-w-[220px] bg-black/[0.2] border-t-8 mb-3 md:mb-0 border-black/30 rounded-lg p-4 transform transition-all duration-150 hover:-translate-y-2 hover:shadow-lg hover:bg-black/[0.1]'>
-                            <h2 className='mb-3 text-lg font-bold'>Planograma ✏️</h2>
-                            <p>Projeto com o intuito de facilitar a organização mercadológica, com ele é possível criar estruturadoras customizáveis para a organização de produtos e apresentação ao consumidor final.</p>
-                            {/* <p>description...</p> */}
-                            {/* <p>description...</p> */}
-                        </div>
+                        <Link href="https://github.com/inhouuu/F1-UDP" target='_blank'>
+                            <div className='cursor-pointer w-full md:max-w-[220px] bg-black/[0.2] border-t-8 mb-3 md:mb-0 border-black/30 rounded-lg p-4 transform transition-all duration-150 hover:-translate-y-2 hover:shadow-lg hover:bg-black/[0.1]'>
+                                <h2 className='mb-3 text-lg font-bold'>Telemetria EA F1 🏎️</h2>
+                                <p>Módulo capaz de converter os bites recebidos por um servidor UDP e apresentá-los por meio de uma interface. </p>
+                                {/* <p>description...</p> */}
+                                {/* <p>description...</p> */}
+                            </div>
+                        </Link>
+
+                        <Link href="https://planograma2.applay.tech/6633a7bf5e3ea4ccf4195220" target='_blank'>
+                            <div className='cursor-pointer w-full md:max-w-[220px] bg-black/[0.2] border-t-8 mb-3 md:mb-0 border-black/30 rounded-lg p-4 transform transition-all duration-150 hover:-translate-y-2 hover:shadow-lg hover:bg-black/[0.1]'>
+                                <h2 className='mb-3 text-lg font-bold'>Planograma ✏️</h2>
+                                <p>Projeto feito em parceria com a rede Barbosa supermercados com o intuito de facilitar a organização mercadológica, com ele é possível criar estruturadoras customizáveis para a organização de produtos e apresentação ao consumidor final.</p>
+                                {/* <p>description...</p> */}
+                                {/* <p>description...</p> */}
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>

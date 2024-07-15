@@ -1,9 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 //ICONS
 import GitHub from '@/icons/dark/github-icon-dark-mode.svg'
 import Linkedin from '@/icons/dark/linkedin-icon-dark-mode.svg'
 import Codepen from '@/icons/dark/codepen-icon-dark-mode.svg'
+import Email from '@/icons/dark/email.svg'
 import Waving_Hand from '@/icons/waving-hand.png'
 
 //TESTE
@@ -19,11 +21,19 @@ export default function Intro() {
                             <Image alt='Waving Hand' src={Waving_Hand} className='inline w-[1.5ch] h-[1.5ch] ml-[0.5ch] align-top' />
                         </strong>
                     </h1>
-                    <h3 className='text-base md:text-xs xl:text-lg mb-5'>Sou desenvolvedor front-end e back-end javaScript de São Paulo/Brasil.</h3>
+                    <h3 className='text-base md:text-xs xl:text-lg mb-5'>Sou desenvolvedor front-end e back-end de São Paulo/Brasil.</h3>
                     <div className='flex md:justify-start justify-center'>
-                        <Image alt='GitHub' src={GitHub} className='md:w-9 xl:w-10 mr-6 w-8 hover:opacity-70 transition-all cursor-pointer' />
-                        <Image alt='Linkedin' src={Linkedin} className='md:w-7 xl:w-8 mr-6 w-6 hover:opacity-70 transition-all cursor-pointer' />
-                        <Image alt='Codepen' src={Codepen} className='md:w-9 xl:w-10 mr-6 w-8 hover:opacity-70 transition-all cursor-pointer' />
+                        <Link href="https://github.com/inhouuu" target='_blank'>
+                            <Image alt='GitHub' src={GitHub} className='md:w-9 xl:w-10 mr-6 w-8 hover:opacity-70 transition-all cursor-pointer' />
+                        </Link>
+
+                        <Link href="https://www.linkedin.com/in/fabio-brasil-540407176/" target='_blank'>
+                            <Image alt='Linkedin' src={Linkedin} className='md:w-7 xl:w-8 mr-6 w-6 hover:opacity-70 transition-all cursor-pointer' />
+                        </Link>
+
+                        <Link href="mailto:fabiobrasilwork@outlook.com" target='_blank'>
+                            <Image alt='Email' src={Email} className='md:w-9 xl:w-10 w-8 hover:opacity-70 transition-all cursor-pointer' />
+                        </Link>
                     </div>
                 </div>
                 <div className='md:w-[35%] xl:w-[40%] w-[90%] order-1 md:order-2'>
